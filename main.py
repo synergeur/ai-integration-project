@@ -6,15 +6,11 @@ from fastapi.middleware.cors import CORSMiddleware
 
 
 app = FastAPI(
-    title="Dragons Of Eden API",
-    summary="Official API for the Dragons Of Eden platform",
-    description="This API is exclusively developed for the Dragons Of Eden platform, enabling secure and efficient interaction with its services. Unauthorized access or use of this API is strictly prohibited and may result in legal action. By using this API, you agree to comply with all applicable terms, conditions, and policies. For more information, please visit our official website at [Dragons Of Eden](https://dragonsofeden.com/).",
+    title="AI API",
+    summary="request for url scan",
+    description="desc",
     version="0.1.0",
-    terms_of_service="https://www.dragonsofeden.com/terms-of-service",
-    contact={
-        "name": "Dragons Of Eden Discord Support Server",
-        "url": "https://discord.com/invite/M5WVpvfW3G",
-    },
+    terms_of_service="",
     license_info={}
 )
 
